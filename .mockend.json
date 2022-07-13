@@ -1,31 +1,20 @@
 {
   "User": {
-    "name": {
-      "string": {}
-    },
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
-    "statusMessage": {
-      "string": [
-        "working from home",
-        "watching Netflix"
-      ]
+    "firstName": {
+      "string": ["Ann", "Kate", "Alex", "Bryan", "Andrey", "Sofia", "Anton", "Alan", "Paul", "Peter", "Steve", "Chris", "Ken", "Karen"]
     },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    "lastName": {
+      "string": ["Baum", "Alvarez", "Lee", "March", "Gladkobeardov", "Newton", "Connor", "Green", "Ward"]
     },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
+    "degree": {
       "int": {
-        "min": 21,
-        "max": 100
+        "min": 0,
+        "max": 300
       }
-    },
-    "isPublic": {
-      "boolean": {}
     }
   }
 }
+
