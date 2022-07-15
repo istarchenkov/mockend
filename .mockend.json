@@ -18,7 +18,7 @@
         "posts": {
             "hasMany": "Post"
         }
-    }
+    },
     "Post": {
         "contentType": "image",
         "contentUrl": {
