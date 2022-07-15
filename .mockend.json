@@ -3,9 +3,6 @@
         "avatarUrl": {
             "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
         },
-        "appImageUrl": {
-            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/800"
-        },
         "firstName": {
             "string": ["Ann", "Kate", "Alex", "Bryan", "Andrey", "Sofia", "Anton", "Alan", "Paul", "Peter", "Steve", "Chris", "Ken", "Karen"]
         },
@@ -17,7 +14,23 @@
                 "min": 0,
                 "max": 300
             }
+        },
+        "posts": {
+            "hasMany": "Post"
         }
+    }
+    "Post": {
+        "contentType": "image",
+        "contentUrl": {
+            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/800"
+        },
+        "created": {
+            "dateTime": {
+                "min": "2022-07-07T00:00:00Z",
+                "max": "2022-09-09T23:59:59Z"
+            }
+        },
+        "liked": { "boolean": { } }
     }
 }
 
