@@ -16,8 +16,7 @@
             }
         }
     },
-    "Post": {
-        "contentType": "image",
+    "Post": {        
         "contentUrl": {
             "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/800"
         },
