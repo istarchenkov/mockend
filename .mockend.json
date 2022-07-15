@@ -14,48 +14,20 @@
                 "min": 0,
                 "max": 300
             }
+        }
+    },
+    "Post": {
+        "contentType": "image",
+        "contentUrl": {
+            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/800"
         },
-        "posts": [
-            {
-                "contentType": "image",
-                "contentUrl": {
-                    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/800"
-                },
-                "created": {
-                    "dateTime": {
-                        "min": "2022-07-07T00:00:00Z",
-                        "max": "2022-09-09T23:59:59Z"
-                    }
-                },
-                "liked": { "boolean": { } }
-            },
-            {
-                "contentType": "image",
-                "contentUrl": {
-                    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/800"
-                },
-                "created": {
-                    "dateTime": {
-                        "min": "2022-07-07T00:00:00Z",
-                        "max": "2022-09-09T23:59:59Z"
-                    }
-                },
-                "liked": { "boolean": { } }
-            },
-            {
-                "contentType": "image",
-                "contentUrl": {
-                    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/800"
-                },
-                "created": {
-                    "dateTime": {
-                        "min": "2022-07-07T00:00:00Z",
-                        "max": "2022-09-09T23:59:59Z"
-                    }
-                },
-                "liked": { "boolean": { } }
+        "created": {
+            "dateTime": {
+                "min": "2022-07-07T00:00:00Z",
+                "max": "2022-09-09T23:59:59Z"
             }
-        ]
+        },
+        "liked": { "boolean": { } }
     }
 }
 
