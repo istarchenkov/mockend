@@ -30,7 +30,10 @@
                 "max": "2022-09-09T23:59:59Z"
             }
         },
-        "liked": { "boolean": { } }
+        "liked": { "boolean": { } },
+        "creator": {
+            "belongsTo": "User"
+        }
     }
 }
 
