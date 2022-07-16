@@ -27,7 +27,7 @@
             }
         },
         "liked": { "boolean": { } },
-        "seen": { "boolean": { } },
+        "seen": { "boolean": { } }
     }
 }
 
